@@ -11,18 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-    <script>
-        let a;
-        let date;
-        let time;
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        setInterval(() => {
-            a = new Date();
-            date = a.toLocaleDateString(undefined, options);
-            time = a.getHours() + ' : ' +a.getMinutes() + ' : ' + a.getSeconds();
-            document.getElementById('time').innerHTML = time + " <br> on " + date;
-        }, 1000);
-    </script>
+    <script src = "index.js"></script>
 </head>
 
 <body>
